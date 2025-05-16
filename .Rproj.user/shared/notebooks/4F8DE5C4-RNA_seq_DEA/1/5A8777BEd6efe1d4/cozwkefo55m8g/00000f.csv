@@ -1,0 +1,64 @@
+"0","if (!require(""BiocManager"", quietly = TRUE))"
+"0","    install.packages(""BiocManager"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installation du package dans ‘C:/Users/os/AppData/Local/R/win-library/4.4’
+(car ‘lib’ n'est pas spécifié)
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/BiocManager_1.30.25.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 506442 bytes (494 KB)
+"
+"2","downloaded 494 KB
+
+"
+"1","le package ‘BiocManager’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","
+"
+"1",""
+"1","Les packages binaires téléchargés sont dans
+	C:\Users\os\AppData\Local\Temp\RtmpgxHJdg\downloaded_packages"
+"1",""
+"1","
+"
+"0","BiocManager::install(""DESeq2"",force = TRUE)"
+"2","'getOption(""repos"")' replaces Bioconductor standard repositories, see
+'help(""repositories"", package = ""BiocManager"")' for details.
+Replacement repositories:
+    CRAN: https://cran.rstudio.com/
+"
+"2","Bioconductor version 3.20 (BiocManager 1.30.25), R 4.4.0 (2024-04-24 ucrt)
+"
+"2","Installing package(s) 'BiocVersion', 'DESeq2'
+"
+"2","installation des dépendances ‘formatR’, ‘UCSC.utils’, ‘GenomeInfoDbData’, ‘zlibbioc’, ‘SparseArray’, ‘lambda.r’, ‘futile.options’, ‘GenomeInfoDb’, ‘XVector’, ‘S4Arrays’, ‘DelayedArray’, ‘futile.logger’, ‘snow’, ‘BH’, ‘S4Vectors’, ‘IRanges’, ‘GenomicRanges’, ‘SummarizedExperiment’, ‘BiocGenerics’, ‘Biobase’, ‘BiocParallel’, ‘matrixStats’, ‘locfit’, ‘MatrixGenerics’
+
+"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/data/annotation/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/data/annotation/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/data/experiment/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/data/experiment/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/workflows/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/workflows/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 11613"
+"2","Avis : cannot open URL 'https://bioconductor.org/packages/3.20/books/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 11613"
+"2","Avis : cannot open URL 'https://bioconductor.org/packages/3.20/books/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"1","
+"
+"1",""
+"1","  Une version binaire est disponible mais la version du source est
+  plus récente"
+"1",""
+"1",":
+"

@@ -1,0 +1,5 @@
+"0","Coinfection.targets<-read.delim(""./data/fileDesc.txt"")"
+"0","rownames(Coinfection.targets)<-c(""Ha1"",""Ha2"",""Ha3"",""Ctr1"",""Ctr2"",""Ctr3"")"
+"0",""
+"0","library(edgeR)"
+"0","library(DESeq2)"

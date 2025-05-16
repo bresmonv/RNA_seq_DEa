@@ -1,0 +1,4 @@
+"0","plotPCA(rld, intgroup=""sampletype"")
+"
+"2","using ntop=500 top features by variance
+"

@@ -1,0 +1,416 @@
+"1","
+"
+"1","  Binaries will be installed
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/formatR_1.14.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 155992 bytes (152 KB)
+"
+"2","downloaded 152 KB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/UCSC.utils_1.2.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 293438 bytes (286 KB)
+"
+"2","downloaded 286 KB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/zlibbioc_1.52.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 378114 bytes (369 KB)
+"
+"2","downloaded 369 KB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/SparseArray_1.6.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1978832 bytes (1.9 MB)
+"
+"2","downloaded 1.9 MB
+
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/lambda.r_1.2.4.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 113098 bytes (110 KB)
+"
+"2","downloaded 110 KB
+
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/futile.options_1.0.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 21484 bytes (20 KB)
+"
+"2","downloaded 20 KB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/GenomeInfoDb_1.42.3.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 4272992 bytes (4.1 MB)
+"
+"2","downloaded 4.1 MB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/XVector_0.46.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 629943 bytes (615 KB)
+"
+"2","downloaded 615 KB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/S4Arrays_1.6.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1054405 bytes (1.0 MB)
+"
+"2","downloaded 1.0 MB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/DelayedArray_0.32.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2412839 bytes (2.3 MB)
+"
+"2","downloaded 2.3 MB
+
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/futile.logger_1.4.3.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 101772 bytes (99 KB)
+"
+"2","downloaded 99 KB
+
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/snow_0.4-4.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 99935 bytes (97 KB)
+"
+"2","downloaded 97 KB
+
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/BH_1.87.0-1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 21797583 bytes (20.8 MB)
+"
+"2","downloaded 20.8 MB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/S4Vectors_0.44.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2391614 bytes (2.3 MB)
+"
+"2","downloaded 2.3 MB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/IRanges_2.40.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2345565 bytes (2.2 MB)
+"
+"2","downloaded 2.2 MB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/GenomicRanges_1.58.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2166900 bytes (2.1 MB)
+"
+"2","downloaded 2.1 MB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/SummarizedExperiment_1.36.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2002531 bytes (1.9 MB)
+"
+"2","downloaded 1.9 MB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/BiocGenerics_0.52.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 639558 bytes (624 KB)
+"
+"2","downloaded 624 KB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/Biobase_2.66.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2476965 bytes (2.4 MB)
+"
+"2","downloaded 2.4 MB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/BiocParallel_1.40.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1950535 bytes (1.9 MB)
+"
+"2","downloaded 1.9 MB
+
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/matrixStats_1.5.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 541435 bytes (528 KB)
+"
+"2","downloaded 528 KB
+
+"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/locfit_1.5-9.12.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 549363 bytes (536 KB)
+"
+"2","downloaded 536 KB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/MatrixGenerics_1.18.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 460257 bytes (449 KB)
+"
+"2","downloaded 449 KB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/BiocVersion_3.20.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 8386 bytes
+"
+"2","downloaded 8386 bytes
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/DESeq2_1.46.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2386838 bytes (2.3 MB)
+"
+"2","downloaded 2.3 MB
+
+"
+"1","le package ‘formatR’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘UCSC.utils’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘zlibbioc’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘SparseArray’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘lambda.r’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘futile.options’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘GenomeInfoDb’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘XVector’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘S4Arrays’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘DelayedArray’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘futile.logger’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘snow’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘BH’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘S4Vectors’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘IRanges’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘GenomicRanges’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘SummarizedExperiment’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘BiocGenerics’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘Biobase’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘BiocParallel’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘matrixStats’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘locfit’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘MatrixGenerics’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘BiocVersion’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘DESeq2’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","
+"
+"1",""
+"1","Les packages binaires téléchargés sont dans
+	C:\Users\os\AppData\Local\Temp\RtmpgxHJdg\downloaded_packages"
+"1",""
+"1","
+"
+"2","installation du package source ‘GenomeInfoDbData’
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/data/annotation/src/contrib/GenomeInfoDbData_1.2.13.tar.gz'
+"
+"2","Content type 'application/gzip'"
+"2"," length 12924272 bytes (12.3 MB)
+"
+"2","downloaded 12.3 MB
+
+"
+"1","* installing *source* package 'GenomeInfoDbData' ...
+"
+"1","** using staged installation
+"
+"1","** data
+"
+"1","** inst
+"
+"1","** help
+"
+"1","*** installing help indices
+"
+"1","** building package indices
+"
+"1","** testing if installed package can be loaded from temporary location
+"
+"1","** testing if installed package can be loaded from final location
+"
+"1","** testing if installed package keeps a record of temporary installation path
+"
+"1","* DONE (GenomeInfoDbData)
+"
+"2","
+"
+"2",""
+"2","Les packages source téléchargés sont dans
+	‘C:\Users\os\AppData\Local\Temp\RtmpgxHJdg\downloaded_packages’"
+"2",""
+"2","
+"
+"2","Installation paths not writeable, unable to update packages
+  path: C:/Program Files/R/R-4.4.0/library
+  packages:
+    boot, class, cluster, foreign, KernSmooth, lattice, MASS, Matrix, mgcv,
+    nlme, nnet, rpart, spatial, survival
+"
+"2","Old packages: 'askpass', 'bayestestR', 'BiocParallel', 'bit', 'bit64',
+  'broom', 'bslib', 'caret', 'cli', 'clock', 'clue', 'commonmark', 'cpp11',
+  'curl', 'data.table', 'datawizard', 'diffobj', 'doBy', 'emmeans',
+  'evaluate', 'flexclust', 'fontawesome', 'fs', 'future', 'generics', 'gert',
+  'ggplot2', 'globals', 'gower', 'hardhat', 'httpuv', 'httr2', 'insight',
+  'jsonlite', 'knitr', 'later', 'lava', 'lme4', 'lubridate', 'MatrixModels',
+  'mime', 'miniUI', 'modeltools', 'mvtnorm', 'nloptr', 'openssl',
+  'parallelly', 'parameters', 'pbkrtest', 'pillar', 'pkgbuild', 'pkgdown',
+  'processx', 'prodlim', 'progressr', 'promises', 'ps', 'purrr', 'quantreg',
+  'R6', 'ragg', 'Rcpp', 'RcppArmadillo', 'RcppParallel', 'RcppThread',
+  'RcppZiggurat', 'readxl', 'recipes', 'Rfast', 'rlang', 'rmarkdown',
+  'rstudioapi', 'sass', 'scales', 'sessioninfo', 'shiny', 'stringi', 'sys',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'tzdb', 'usethis',
+  'utf8', 'waldo', 'xfun', 'xml2', 'zip'
+"
+"1","Update all/some/none? [a/s/n]: "
+"0","n"
+"0","BiocManager::install(""edgeR"",force = TRUE)"
+"2","'getOption(""repos"")' replaces Bioconductor standard repositories, see
+'help(""repositories"", package = ""BiocManager"")' for details.
+Replacement repositories:
+    CRAN: https://cran.rstudio.com/
+"
+"2","Bioconductor version 3.20 (BiocManager 1.30.25), R 4.4.0 (2024-04-24 ucrt)
+"
+"2","Installing package(s) 'edgeR'
+"
+"2","installation des dépendances ‘statmod’, ‘limma’
+
+"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/data/annotation/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/data/annotation/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/data/experiment/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/data/experiment/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/workflows/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 248"
+"2","Avis : cannot open URL 'https://mghp.osn.xsede.org/bir190004-bucket01/archive.bioconductor.org/packages/3.20/workflows/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 11613"
+"2","Avis : cannot open URL 'https://bioconductor.org/packages/3.20/books/bin/windows/contrib/4.4/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Avis : taille téléchargée 0 != taille déclarée 11613"
+"2","Avis : cannot open URL 'https://bioconductor.org/packages/3.20/books/bin/windows/contrib/4.4/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","essai de l'URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/statmod_1.5.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 323008 bytes (315 KB)
+"
+"2","downloaded 315 KB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/limma_3.62.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 3141360 bytes (3.0 MB)
+"
+"2","downloaded 3.0 MB
+
+"
+"2","essai de l'URL 'https://bioconductor.org/packages/3.20/bioc/bin/windows/contrib/4.4/edgeR_4.4.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2820746 bytes (2.7 MB)
+"
+"2","downloaded 2.7 MB
+
+"
+"1","le package ‘statmod’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘limma’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","le package ‘edgeR’ a été décompressé et les sommes MD5 ont été vérifiées avec succés
+"
+"1","
+"
+"1",""
+"1","Les packages binaires téléchargés sont dans
+	C:\Users\os\AppData\Local\Temp\RtmpgxHJdg\downloaded_packages"
+"1",""
+"1","
+"
+"2","Installation paths not writeable, unable to update packages
+  path: C:/Program Files/R/R-4.4.0/library
+  packages:
+    boot, class, cluster, foreign, KernSmooth, lattice, MASS, Matrix, mgcv,
+    nlme, nnet, rpart, spatial, survival
+"
+"2","Old packages: 'askpass', 'bayestestR', 'BiocParallel', 'bit', 'bit64',
+  'broom', 'bslib', 'caret', 'cli', 'clock', 'clue', 'commonmark', 'cpp11',
+  'curl', 'data.table', 'datawizard', 'diffobj', 'doBy', 'emmeans',
+  'evaluate', 'flexclust', 'fontawesome', 'fs', 'future', 'generics', 'gert',
+  'ggplot2', 'globals', 'gower', 'hardhat', 'httpuv', 'httr2', 'insight',
+  'jsonlite', 'knitr', 'later', 'lava', 'lme4', 'lubridate', 'MatrixModels',
+  'mime', 'miniUI', 'modeltools', 'mvtnorm', 'nloptr', 'openssl',
+  'parallelly', 'parameters', 'pbkrtest', 'pillar', 'pkgbuild', 'pkgdown',
+  'processx', 'prodlim', 'progressr', 'promises', 'ps', 'purrr', 'quantreg',
+  'R6', 'ragg', 'Rcpp', 'RcppArmadillo', 'RcppParallel', 'RcppThread',
+  'RcppZiggurat', 'readxl', 'recipes', 'Rfast', 'rlang', 'rmarkdown',
+  'rstudioapi', 'sass', 'scales', 'sessioninfo', 'shiny', 'stringi', 'sys',
+  'systemfonts', 'testthat', 'textshaping', 'tinytex', 'tzdb', 'usethis',
+  'utf8', 'waldo', 'xfun', 'xml2', 'zip'
+"
+"1","Update all/some/none? [a/s/n]: "
+"0","n"

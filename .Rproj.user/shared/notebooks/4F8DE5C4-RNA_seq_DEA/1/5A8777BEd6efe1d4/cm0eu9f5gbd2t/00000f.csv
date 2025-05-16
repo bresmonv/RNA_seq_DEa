@@ -1,0 +1,6 @@
+"0","all(colnames(Coinfection.orig$count) %in% rownames(meta))
+"
+"1","[1]"
+"1"," TRUE"
+"1","
+"

@@ -1,0 +1,2 @@
+"0","normalized_counts <- counts(dds, normalized=TRUE)"
+"0","write.csv(normalized_counts, file=""./results/coinfection_normalized_counts_DESeq2.csv"")"

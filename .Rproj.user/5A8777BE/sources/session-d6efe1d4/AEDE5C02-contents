@@ -1,0 +1,146 @@
+---
+title: "RNA_seq_DEA"
+output: html_document
+date: "2025-05-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+```{r}
+
+```
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("DESeq2",force = TRUE)
+BiocManager::install("edgeR",force = TRUE)
+```
+Read data files
+```{r, message=TRUE}
+Coinfection.targets<-read.delim("./data/fileDesc.txt")
+rownames(Coinfection.targets)<-c("Ha1","Ha2","Ha3","Ctr1","Ctr2","Ctr3")
+
+library(edgeR)
+library(DESeq2)
+```
+
+
+```{r}
+Coinfection.orig <- readDGE(Coinfection.targets, header=F)
+dim(Coinfection.orig)
+```
+```{r}
+head(Coinfection.orig)
+```
+
+```{r}
+Coinfection.rawCount <- Coinfection.orig$count
+dim(Coinfection.rawCount)
+head(Coinfection.rawCount)
+```
+
+
+4.2.4 Build the metadata
+
+We have 2 samples : Ha-infection and control
+
+```{r}
+sampletype <- factor(c(rep("Ha",3), rep("Ctr", 3)))
+```
+
+metadata frame
+
+```{r}
+meta <- data.frame(sampletype, row.names = colnames(Coinfection.orig$count))
+```
+Check names of columns and rows and if that sample names match in both files
+```{r}
+colnames(Coinfection.orig$count)
+rownames(meta)
+all(colnames(Coinfection.orig$count) %in% rownames(meta))
+```
+
+```{r}
+library(DESeq2)
+dds <- DESeqDataSetFromMatrix(Coinfection.orig, colData = meta, design = ~ sampletype)
+head(counts(dds))
+```
+
+
+To perform the median of ratios method of normalization, DESeq2 has a single estimateSizeFactors() function that will generate size factors.
+normalization factor applied to each samples
+```{r}
+dds <- estimateSizeFactors(dds)
+sizeFactors(dds)
+```
+
+4.2.7 Generate the normalized counts
+Now, to retrieve the normalized counts matrix from dds, we use the counts() function and add the argument normalized=TRUE.
+Save.
+
+```{r}
+normalized_counts <- counts(dds, normalized=TRUE)
+write.csv(normalized_counts, file="./results/coinfection_normalized_counts_DESeq2.csv")
+```
+
+5 Sample-level quality Control
+##5.1 Principal Component Analysis (PCA)
+###5.1.1 PCA overview
+
+To explore the similarity of our samples, we will be performing sample-level QC using Principal Component Analysis (PCA) and hierarchical clustering methods. These methods/tools allow us to check how well similar the replicates are to each other (clustering) and to make sure that the experimental condition is the major source of variation in the data. Sample-level QC can also help identify any samples behaving like outliers; we can further explore any potential outliers to determine whether they need to be removed prior to DE analysis.
+he log2 transformation improves the distances/clustering for visualization. Instead of using an ordinary log2 transform, we will be using regularized log transform (rlog), to avoid any bias from the abundance of low-count genes;
+
+###5.1.2 Using our dataset for PCA
+####Transform normalized counts for the dataset
+
+```{r}
+rld <- rlog(dds, blind=TRUE)
+```
+####PCA
+
+```{r}
+plotPCA(rld, intgroup="sampletype")
+```
+
+```{r}
+pdf("./results/PlotPCA_dds.pdf")
+plotPCA(rld, intgroup="sampletype")
+dev.off()
+```
+
+
+
+```{r}
+rld_mat <- assay(rld)
+rld_cor <- cor(rld_mat) 
+head(rld_cor)
+```
+```{r}
+head(meta)
+install.packages("pheatmap")
+library(pheatmap)
+pheatmap(rld_cor, annotation = meta)
+```
+
